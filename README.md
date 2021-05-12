@@ -1,27 +1,48 @@
 SGPmatrices
-=======
+=============
 
-Baseline coefficient matrices for SGP analyses.
-------------------------------------------------------------------------------------
+[![R-CMD-check](https://github.com/CenterForAssessment/SGPmatrices/workflows/R-CMD-check/badge.svg)](https://github.com/CenterForAssessment/SGPmatrices/actions)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/centerforassessment/SGPmatrices?branch=master&svg=true)](https://ci.appveyor.com/project/centerforassessment/cfaToo
+ls)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/SGPmatrices)](http://cran.r-project.org/package=SGPmatrices)
+[![Development Version](https://img.shields.io/badge/devel-0.0--0.96-brightgreen.svg)](https://github.com/CenterForAssessment/SGPmatrices)
+[![License](http://img.shields.io/badge/license-GPL%203-brightgreen.svg?style=flat)](https://github.com/CenterForAssessment/SGPmatrices/blob/master/LICENSE.md)
 
-The package **SGPmatrices** contains baseline coefficient matrices derived from SGP analyses of large scale state assessment data. The baseline matrices are utilized by functions within the SGP package to calculate baseline SGPs as well as baseline referenced projections.
+# Overview
 
-[![Build Status](https://travis-ci.org/CenterForAssessment/RLImatrices.svg?branch=master)](https://travis-ci.org/CenterForAssessment/RLImatrices) [![Join the chat at https://gitter.im/CenterForAssessment/RLImatrices](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/CenterForAssessment/RLImatrices?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![License](http://img.shields.io/badge/license-GPL%203-brightgreen.svg?style=flat)](https://github.com/CenterForAssessment/RLImatrices/blob/master/LICENSE.md)
+The package **SGPmatrices** contains baseline coefficient matrices derived from SGP analyses of large scale state assessment data. The baseline matrices are utilized by functions within the SGP package to calculate baseline SGPs as well as baseline referenced projections. The package is under active
+development by staff at the [Center for Assessment](https://www.nciea.org).
 
-* [Github Web site](https://github.com/CenterForAssessment/SGPmatrices/)
+# Installation
 
-Install latest release from [Github](https://github.com/CenterForAssessment/SGPmatrices/) :octocat:
-----------------------------------------------
+To install the latest stable release of **SGPmatrices** from [CRAN](https://CRAN.R-project.org/package=SGPmatrices) (Currently not yet posted to CRAN)
 
 ```R
-devtools::install_github("CenterForAssessment/SGPmatrices")
-require(SGPmatrices)
+> install.packages("SGPmatrices")
 ```
 
-To install from Github you might need: Windows: Rtools (http://cran.r-project.org/bin/windows/Rtools/), OS X: xcode (from the app store),
-Linux: apt-get install r-base-dev (or similar).
+To install the development release of **SGPmatrices** from [GitHub](https://github.com/CenterForAssessment/SGPmatrices/):
 
-### Prepared with :heart: by:
+```R
+> devtools::install_github("CenterForAssessment/SGPmatrices")
+```
+
+# Usage
+
+```
+To use SGPmatrices ...
+```
+
+# Resources
+
+* [SGPmatrices GitHub Pages](https://CenterForAssessment.github.io/SGPmatrices)
+* [CRAN Repo](https://CRAN.R-project.org/package=SGPmatrices)
+
+# Contributors
+
+The **SGPmatrices** Package is crafted with :heart: by:
 
 * [Damian Betebenner](https://github.com/dbetebenner)
-* [Adam VanIwaarden](https://github.com/adamvi)
+* [Adam Van Iwaarden](https://github.com/adamvi)
+
+We love feedback and are happy to answer questions or support requests for additional features to the package.
