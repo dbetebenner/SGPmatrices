@@ -1,0 +1,20 @@
+---
+title: "SGPmatrices 0.0-0.1"
+date: "May 12th, 2021"
+---
+
+```{r, echo = FALSE}
+is_html_output = function() {
+  knitr::opts_knit$get("rmarkdown.pandoc.to")=="html"
+}
+knitr::opts_chunk$set(collapse = TRUE, comment = "", prompt=TRUE, fig.dpi = 96)
+if (is_html_output()) {
+    options(width=1000)
+}
+```
+
+
+This is the initial release of the **SGPmatrices** package. The package **SGPmatrices** contains baseline coefficient matrices derived from SGP analyses of large scale state assessment data. The baseline matrices are utilized by functions within the SGP package to calculate baseline SGPs as well as baseline referenced projections. The package is under active
+development by staff at the [Center for Assessment](https://www.nciea.org).
+
+For complete `SGPmatrices` documentation, see the [documentation](https://CenterForAssessment.github.io/SGPmatrices/reference/SGPmatrices.html)
