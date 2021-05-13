@@ -12,8 +12,6 @@ if (is_html_output()) {
     options(width=1000)
 }
 ```
-
-
 This is the initial release of the **SGPmatrices** package. The package **SGPmatrices** contains baseline coefficient matrices derived from SGP analyses of large scale state assessment data. The baseline matrices are utilized by functions within the SGP package to calculate baseline SGPs as well as baseline referenced projections. The package is under active
 development by staff at the [Center for Assessment](https://www.nciea.org).
 

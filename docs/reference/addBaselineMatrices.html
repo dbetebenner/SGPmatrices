@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/png" href="https://centerforassessment.github.io/assets/favicon.png" sizes="16x16">
 
-<meta property="og:title" content="SGPmatrices • Baseline matrices for WIDA Indiana baseline SGP analyses — WIDA_IN_Baseline_Matrices"/>
-<meta property="og:description" content="SGPmatrices • Baseline matrices for WIDA Indiana baseline SGP analyses — WIDA_IN_Baseline_Matrices"/>
+<meta property="og:title" content="SGPmatrices • Function for adding baseline matrices in SGPmatrices to SGPstateData in SGP package. — addBaselineMatrices"/>
+<meta property="og:description" content="SGPmatrices • Function for adding baseline matrices in SGPmatrices to SGPstateData in SGP package. — addBaselineMatrices"/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="https://centerforassessment.github.io/SGPmatrices"/>
 <meta property="og:image" content="https://centerforassessment.github.io/assets/favicon.png"/>
@@ -17,10 +17,10 @@
 <meta name="twitter:site" content="@NCIEA1"/>
 <meta name="twitter:creator" content="@dbetebenner"/>
 <meta name="twitter:image" content="https://centerforassessment.github.io/assets/favicon.png"/>
-<meta name="twitter:title" content="SGPmatrices • Baseline matrices for WIDA Indiana baseline SGP analyses — WIDA_IN_Baseline_Matrices"/>
-<meta name="twitter:description" content="SGPmatrices • Baseline matrices for WIDA Indiana baseline SGP analyses — WIDA_IN_Baseline_Matrices"/>
+<meta name="twitter:title" content="SGPmatrices • Function for adding baseline matrices in SGPmatrices to SGPstateData in SGP package. — addBaselineMatrices"/>
+<meta name="twitter:description" content="SGPmatrices • Function for adding baseline matrices in SGPmatrices to SGPstateData in SGP package. — addBaselineMatrices"/>
 
-<title>SGPmatrices • Baseline matrices for WIDA Indiana baseline SGP analyses — WIDA_IN_Baseline_Matrices</title>
+<title>SGPmatrices • Function for adding baseline matrices in SGPmatrices to SGPstateData in SGP package. — addBaselineMatrices</title>
 
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq" crossorigin="anonymous"></script>
@@ -120,27 +120,42 @@
       <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Baseline matrices for WIDA Indiana baseline SGP analyses</h1>
+    <h1>Function for adding baseline matrices in SGPmatrices to SGPstateData in SGP package.</h1>
     </div>
 
-    <p>An environment containing collections of baseline matrices used historically during SGP baseline analyses. Matrices might be updated periodically.
-Matrices are used if baseline SGP analyses are performed for WIDA_IN (WIDA-ACCESS Indiana). The environment currently contains matrices associated with the following years:</p><dl class='dl-horizontal'>
-    <dt><code>WIDA_IN_Baseline_Matrices_2021</code></dt><dd><p>2021 WIDA_IN Baseline SGP Analyses</p></dd>
-</dl>
+    <p>The function addBaselineMatrices adds baseline matrices contained in the SGPmatrices package to the SGPstateData object embedded in the SGP package so baseline SGP analyses can be conducted.</p>
 
+    <pre class="usage"><span class='fu'>addBaselineMatrices</span>(
+    <span class='no'>state</span>,
+    <span class='no'>year</span>)</pre>
 
+    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a> Arguments</h2>
+    <table class="ref-arguments">
+    <colgroup><col class="name" /><col class="desc" /></colgroup>
+    <tr>
+      <th>state</th>
+      <td><p>A character string for the state/assessment abbreviation. Must match value to be used in SGPstateData.</p></td>
+    </tr>
+    <tr>
+      <th>year</th>
+      <td><p>Year associated with the matrices.</p></td>
+    </tr>
+    </table>
 
-    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+    <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p>WIDA-ACCESS Indiana Assessment Data</p>
+    <p>Returns SGPstateData with the matrices embedded in the correct position.</p>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
-      <li><a href="#source">Source</a></li>
+      <li><a href="#arguments">Arguments</a></li>
+      <li><a href="#value">Value</a></li>
     </ul>
 
+    <h2>Author</h2>
+    Damian W. Betebenner <a href='mailto:dbetebenner@nciea.org'>dbetebenner@nciea.org</a>
   </div>
 </div>
 
