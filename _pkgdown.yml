@@ -1,0 +1,40 @@
+template:
+  package: centerPackageTemplate
+  default_assets: false
+
+
+home:
+  strip_header: true
+  links:
+    - text: Other Center stuff
+      href: https://centerforassessment.github.io/
+
+
+navbar:
+    title: ~
+    type: default
+    left:
+    - text: Getting Started
+      href: articles/cfaTools.html
+    - text: Reference
+      href: reference/index.html
+    - text: News
+      menu:
+      - text: "Release notes"
+      - text: "cfaTools 0.0-0.1"
+        href: articles/releases/cfaTools-0.0-0.1.html
+      - text: "------------------"
+      - text: "Change log"
+        href: news/index.html
+    right:
+      - icon: 'fab fa-github'
+        href: https://github.com/centerforassessment/SGPmatrices
+      - icon: 'fab fa-twitter'
+        href: https://twitter.com/intent/tweet?url=https%3A%2F%2Fcenterforassessment.github.io%2FSGPmatrices&via=NCIEA1&text=SGPmatrices%3A%20Baseline%20coefficient%20matrices%20for%20SGP%20analyses&hashtags=SGPmatrices%2CSGP%2Crstats
+
+
+reference:
+      - title: Baseline coefficient matrices for SGP analyses
+        desc:  Baseline coefficient matrices for SGP analyses
+        contents:
+            - WIDA_IN_Baseline_Matrices
