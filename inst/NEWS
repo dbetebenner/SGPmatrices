@@ -1,61 +1,7 @@
-Changes in version: RLImatrices_14.0-0.0
+# SGPmatrices 0.0-0.2
 
-  o Finalizing SPANISH test matrices for READING, MATHEMATICS, and EARLY_LITERACY..
+* Added function addBaselineMatrices which adds the matrices for a given state/year from SGPmatrices to SGPstateData 
 
-Changes in version: RLImatrices_13.0-0.0
+# SGPmatrices 0.0-0.1
 
-  o Adding in SPANISH test matrices for READING, MATHEMATICS, and EARLY_LITERACY..
-
-Changes in version: RLImatrices_12.0-0.0
-
-  o Adding in SPANISH test matrices for READING, MATHEMATICS, and EARLY_LITERACY..
-
-Changes in version: RLImatrices_11.0-0.0
-
-  o Updated STAR and RASCH matrices for READING, MATHEMATICS, and EARLY_LITERACY using data up to 2017_2018.3.
-
-Changes in version: RLImatrices_10.0-0.0
-
-  o Added in READING_UNIFIED_RASCH based matrices for Fall, Winter, Spring use based upon data up to 2017_2018.
-
-Changes in version: RLImatrices_9.5-0.0
-
-  o Added in STAR based matrices for Winter, 2017-2018 use (not for UK yet).
-
-Changes in version: RLImatrices_9.0-0.0
-
-  o Added in STAR based matrices for Fall, 2017-2018 use.
-
-Changes in version: RLImatrices_8.0-0.0
-
-  o Updated MATHEMATICS and EARLY_LITERACY Rasch based matrices for Fall & Winter 2016-2017.
-
-Changes in version: RLImatrices_7.0-0.0
-
-  o Added in Rasch based matrices.
-
-Changes in version: RLImatrices_6.0-0.0
-
-  o Added in matrices for 2016_2017.3 and released for SPRING_2016-2017.
-
-Changes in version: RLImatrices_5.0-0.0
-
-  o Added in matrices for 2016_2017.2 and released for WINTER_2016-2017.
-
-Changes in version: RLImatrices_4.0-0.0
-
-  o Added in matrices for 2016_2017.1 and released for FALL_2016-2017.
-
-Changes in version: RLImatrices_3.0-0.0
-
-  o Sorted matrices by name within lists.
-  o Added in matrices for 2015_2016.3 and released for SPRING_2015-2016.
-
-Changes in version: RLImatrices_2.0-0.0
-
-  o Copied matrices for 2015_2016.1 to 2015_2016.2 and released for WINTER_2015-2016.
-
-Changes in version: RLImatrices_1.0-0.0
-
-  o Package Released containing baseline matrices for use up to and including Fall 2015-2016.
-
+* Initial build and release of package 

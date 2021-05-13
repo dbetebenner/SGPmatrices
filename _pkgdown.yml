@@ -15,14 +15,16 @@ navbar:
     type: default
     left:
     - text: Getting Started
-      href: articles/cfaTools.html
+      href: articles/SGPmatrices.html
     - text: Reference
       href: reference/index.html
     - text: News
       menu:
       - text: "Release notes"
-      - text: "cfaTools 0.0-0.1"
-        href: articles/releases/cfaTools-0.0-0.1.html
+      - text: "SGPmatrices 0.0-0.2"
+        href: articles/releases/SGPmatrices-0.0-0.2.html
+      - text: "SGPmatrices 0.0-0.1"
+        href: articles/releases/SGPmatrices-0.0-0.1.html
       - text: "------------------"
       - text: "Change log"
         href: news/index.html
@@ -34,6 +36,10 @@ navbar:
 
 
 reference:
+      - title: Functions to facilitate working with baseline matrices
+        desc: Functions to facilitate working with baseline matrices
+        contents:
+            - addBaselineMatrices
       - title: Baseline coefficient matrices for SGP analyses
         desc:  Baseline coefficient matrices for SGP analyses
         contents:
