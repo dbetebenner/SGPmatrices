@@ -21,8 +21,8 @@ navbar:
     - text: News
       menu:
       - text: "Release notes"
-      - text: "SGPmatrices 0.0-0.2"
-        href: articles/releases/SGPmatrices-0.0-0.2.html
+      - text: "SGPmatrices 0.0-0.3"
+        href: articles/releases/SGPmatrices-0.0-0.3.html
       - text: "SGPmatrices 0.0-0.1"
         href: articles/releases/SGPmatrices-0.0-0.1.html
       - text: "------------------"
@@ -43,4 +43,4 @@ reference:
       - title: Baseline coefficient matrices for SGP analyses
         desc:  Baseline coefficient matrices for SGP analyses
         contents:
-            - WIDA_IN_Baseline_Matrices
+            - SGPmatrices
