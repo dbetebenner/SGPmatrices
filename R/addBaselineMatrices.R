@@ -12,7 +12,7 @@ function(state,
              tmp.years <- names(SGPmatrices::SGPmatrices[[paste(state, "Baseline_Matrices", sep="_")]])
              if (!year %in% tmp.years) year <- tmp.years[which(year==sort(c(tmp.years, year)))-1L]
              matrix.label <- paste0("SGPmatrices::SGPmatrices[['", paste(state, "Baseline_Matrices", sep="_"), "']][['", year, "']]")
-             message(paste0("\tNOTE: Using ", state, " baseline matrices from ", year, "."))
+             message(paste0("\tNOTE: Adding ", SGP::getStateAbbreviation(state, type="Long"), " (", state, "), ", year, " baseline matrices to SGPstateData."))
              return(matrix.label)
         }
 
