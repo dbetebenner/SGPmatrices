@@ -21,6 +21,8 @@ navbar:
     - text: News
       menu:
       - text: "Release notes"
+      - text: "SGPmatrices 0.0-0.5"
+        href: articles/releases/SGPmatrices-0.0-0.5.html
       - text: "SGPmatrices 0.0-0.3"
         href: articles/releases/SGPmatrices-0.0-0.3.html
       - text: "SGPmatrices 0.0-0.1"

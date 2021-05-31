@@ -1,3 +1,7 @@
+# SGPmatrices 0.0-0.5
+
+* Continuing to add in all the baseline analyses necessary to run COVID-19 impact analyses 
+
 # SGPmatrices 0.0-0.2
 
 * Added function addBaselineMatrices which adds the matrices for a given state/year from SGPmatrices to SGPstateData 
