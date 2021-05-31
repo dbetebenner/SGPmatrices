@@ -33,6 +33,13 @@ The package is under active development by staff at the [Center for Assessment](
 # Use
 
 After [installing](../index.html#installation) the package from GitHub, one conducts baseline SGP calculations with the matrices in this package.
+Baseline matrices are added to the `SGPstateData` object embedded in the `SGP` prior to running `SGP` analyses supply the appropriate state abbreviation and year
+to the `addBaselineMatrices` function. For example:
+
+```
+SGPstateData <- SGPmatrices::addBaselineMatrices("AZ", "2021")
+```
+
 
 
 # Examples

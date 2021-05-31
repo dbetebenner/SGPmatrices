@@ -1,0 +1,39 @@
+---
+title: "SGPmatrices 0.0-0.5"
+date: "May 31st, 2021"
+---
+
+```{r, echo = FALSE}
+is_html_output = function() {
+  knitr::opts_knit$get("rmarkdown.pandoc.to")=="html"
+}
+knitr::opts_chunk$set(collapse = TRUE, comment = "", prompt=TRUE, fig.dpi = 96)
+if (is_html_output()) {
+    options(width=1000)
+}
+```
+Continuing updates to the **SGPmatrices** package. The package **SGPmatrices** now contains baseline coefficient matrices from numerous states including: 
+
+* Arizona 
+    + AzM2 (AZ) 2021
+
+* Colorado 
+    + CMAS (CO) 2021
+    + WIDA-Access Colorado (WIDA_CO) 2021
+
+* Hawaii 
+    + WIDA-Access Hawaii (WIDA_HI) 2021
+
+* Indiana 
+    + ILEARN (IN) 2021
+    + WIDA-Access Indiana (WIDA_IN) 2021
+
+* Massachusetts 
+    + WIDA-Access Massachusetts (WIDA_MA) 2021
+
+The package now contains the function [addBaselineMatrices](https://CenterForAssessment.github.io/SGPmatrices/reference/addBaselineMatrices.html) that returns a copy of the
+SGP meta-data object [SGPstateData]() with the appropriate baseline matrices embedded. In baseline analyses with the [SGP package](https://sgp.io) embedding of matrices takes place automatically.
+
+The package is under active development by staff at the [Center for Assessment](https://www.nciea.org).
+
+For complete `SGPmatrices` documentation, see the [documentation](https://CenterForAssessment.github.io/SGPmatrices/reference/SGPmatrices.html)
