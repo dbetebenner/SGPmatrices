@@ -1109,6 +1109,9 @@ img {
 .img-rounded {
   border-radius: 3px; }
 
+.img-author {
+  clip-path: circle(10px at center); }
+
 .img-thumbnail {
   padding: 4px;
   line-height: 1.846;

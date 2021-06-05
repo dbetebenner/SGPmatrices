@@ -1,8 +1,8 @@
 Package: SGPmatrices
 Type: Package
 Title: Baseline coefficient matrices for SGP analyses
-Version: 0.0-0.5
-Date: 2021-5-31
+Version: 0.0-0.7
+Date: 2021-6-5
 Authors@R: c(person(given=c("Damian", "W."), family="Betebenner", email="dbetebenner@nciea.org", role=c("aut", "cre")),
             person(given=c("Adam", "R."), family="Van Iwaarden", email="avaniwaarden@nciea.org", role="aut"))
 Maintainer: Damian W. Betebenner <dbetebenner@nciea.org>
