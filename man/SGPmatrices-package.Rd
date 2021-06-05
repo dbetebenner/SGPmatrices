@@ -3,15 +3,15 @@
 \docType{package}
 \title{Baseline coefficient matrices for SGP analyses}
 \description{
-	The package SGPmatrices contains baseline coefficient matrices for SGP analyses.
+	The package SGPmatrices contains baseline coefficient matrices for multiple states/assessment for SGP analyses.
 }
 
 \details{
 \tabular{ll}{
 Package: \tab SGPmatrices\cr
 Type: \tab Package\cr
-Version: \tab 0.0-0.6\cr
-Date: \tab 2021-6-3\cr
+Version: \tab 0.0-0.7\cr
+Date: \tab 2021-6-5\cr
 License: \tab GPL-3\cr
 LazyLoad: \tab Yes\cr
 LazyData: \tab Yes\cr
