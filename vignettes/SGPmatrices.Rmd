@@ -58,7 +58,7 @@ SGPstateData <- SGPmatrices::addBaselineMatrices("AZ", "2021")
 # Examples
 
 ```
-SGPstateData <- SGPmatrices::addBaselineMatrices("WIDA", add.matrices.to.state="WIDA_RI", "2021")
+SGPstateData <- SGPmatrices::addBaselineMatrices("WIDA", "2021", add.matrices.to.which.state="WIDA_RI")
 ```
 
 # Contributions & Requests
