@@ -4,7 +4,7 @@ SGPmatrices
 [![R-CMD-check](https://github.com/CenterForAssessment/SGPmatrices/workflows/R-CMD-check/badge.svg)](https://github.com/CenterForAssessment/SGPmatrices/actions)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/centerforassessment/SGPmatrices?branch=master&svg=true)](https://ci.appveyor.com/project/centerforassessment/SGPmatrices)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/SGPmatrices)](http://cran.r-project.org/package=SGPmatrices)
-[![Development Version](https://img.shields.io/badge/devel-0.0--0.8-brightgreen.svg)](https://github.com/CenterForAssessment/SGPmatrices)
+[![Development Version](https://img.shields.io/badge/devel-0.0--0.9-brightgreen.svg)](https://github.com/CenterForAssessment/SGPmatrices)
 [![License](http://img.shields.io/badge/license-GPL%203-brightgreen.svg?style=flat)](https://github.com/CenterForAssessment/SGPmatrices/blob/master/LICENSE.md)
 
 # Overview
@@ -18,12 +18,13 @@ The baseline coefficient matrices embedded in **SGPmatrices** are updated period
 
 * AZ_Baseline_Matrices: Contains 2021 baseline matrices for Arizona AzM2.
 * CO_Baseline_Matrices: Contains 2021 baseline matrices for Colorado CMAS.
+* HI_Baseline_Matrices: Contains 2021 baseline matrices for Hawaii SBA.
+* IN_Baseline_Matrices: Contains 2021 baseline matrices for Indiana ILEARN/ISTEP+.
+* MA_Baseline_Matrices: Contains 2021 baseline matrices for Massachusetts MCAS 2.0/PARCC.
 * WIDA_CO_Baseline_Matrices: Contains 2021 baseline matrices for Colorado WIDA-ACCESS.
 * WIDA_HI_Baseline_Matrices: Contains 2021 baseline matrices for Hawaii WIDA-ACCESS.
 * WIDA_IN_Baseline_Matrices: Contains 2021 baseline matrices for Indiana WIDA-ACCESS.
-* IN_Baseline_Matrices: Contains 2021 baseline matrices for Indiana ILEARN/ISTEP+.
 * WIDA_MA_Baseline_Matrices: Contains 2021 baseline matrices for Massachusetts WIDA-ACCESS.
-* MA_Baseline_Matrices: Contains 2021 baseline matrices for Massachusetts MCAS 2.0/PARCC.
 * WIDA_NH_Baseline_Matrices: Contains 2021 baseline matrices for New Hampshire WIDA-ACCESS.
 * WIDA_RI_Baseline_Matrices: Contains 2021 baseline matrices for Rhode Island WIDA-ACCESS.
 

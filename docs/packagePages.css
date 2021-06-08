@@ -3962,7 +3962,7 @@ tbody.collapse.in {
     .navbar-right ~ .navbar-right {
       margin-right: 0; } }
 .navbar-default {
-  background-color: #e4f4f4;
+  background-image: linear-gradient(to bottom, #e4f4f4 0%, #80e4e4 100%);
   border-color: transparent; }
   .navbar-default .navbar-brand {
     color: #444; }
