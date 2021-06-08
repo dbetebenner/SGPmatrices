@@ -4,13 +4,28 @@ SGPmatrices
 [![R-CMD-check](https://github.com/CenterForAssessment/SGPmatrices/workflows/R-CMD-check/badge.svg)](https://github.com/CenterForAssessment/SGPmatrices/actions)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/centerforassessment/SGPmatrices?branch=master&svg=true)](https://ci.appveyor.com/project/centerforassessment/SGPmatrices)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/SGPmatrices)](http://cran.r-project.org/package=SGPmatrices)
-[![Development Version](https://img.shields.io/badge/devel-0.0--0.7-brightgreen.svg)](https://github.com/CenterForAssessment/SGPmatrices)
+[![Development Version](https://img.shields.io/badge/devel-0.0--0.8-brightgreen.svg)](https://github.com/CenterForAssessment/SGPmatrices)
 [![License](http://img.shields.io/badge/license-GPL%203-brightgreen.svg?style=flat)](https://github.com/CenterForAssessment/SGPmatrices/blob/master/LICENSE.md)
 
 # Overview
 
 The package **SGPmatrices** contains baseline coefficient matrices derived from SGP analyses of large scale state assessment data. The baseline matrices are utilized by functions within the SGP package to calculate baseline SGPs as well as baseline referenced projections. The package is under active
 development by staff at the [Center for Assessment](https://www.nciea.org).
+
+# Contents
+
+The baseline coefficient matrices embedded in **SGPmatrices** are updated periodically. Current contents include:
+
+* AZ_Baseline_Matrices: Contains 2021 baseline matrices for Arizona AzM2.
+* CO_Baseline_Matrices: Contains 2021 baseline matrices for Colorado CMAS.
+* WIDA_CO_Baseline_Matrices: Contains 2021 baseline matrices for Colorado WIDA-ACCESS.
+* WIDA_HI_Baseline_Matrices: Contains 2021 baseline matrices for Hawaii WIDA-ACCESS.
+* WIDA_IN_Baseline_Matrices: Contains 2021 baseline matrices for Indiana WIDA-ACCESS.
+* IN_Baseline_Matrices: Contains 2021 baseline matrices for Indiana ILEARN/ISTEP+.
+* WIDA_MA_Baseline_Matrices: Contains 2021 baseline matrices for Massachusetts WIDA-ACCESS.
+* MA_Baseline_Matrices: Contains 2021 baseline matrices for Massachusetts MCAS 2.0/PARCC.
+* WIDA_NH_Baseline_Matrices: Contains 2021 baseline matrices for New Hampshire WIDA-ACCESS.
+* WIDA_RI_Baseline_Matrices: Contains 2021 baseline matrices for Rhode Island WIDA-ACCESS.
 
 # Installation
 
@@ -28,9 +43,8 @@ To install the development release of **SGPmatrices** from [GitHub](https://gith
 
 # Usage
 
-```
-To use SGPmatrices ...
-```
+To use **SGPmatrices** please follow the directions in the [vignette](https://centerforassessment.github.io/SGPmatrices/articles/SGPmatrices.html)
+
 
 # Resources
 

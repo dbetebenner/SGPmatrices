@@ -1,5 +1,6 @@
 `addBaselineMatrices` <-
 function(state,
+         add.matrices.to.state=NULL,
          year) {
 
         SGPstateData <- SGP::SGPstateData ### Needed due to assignment of values to SGPstateData
@@ -16,6 +17,8 @@ function(state,
              return(matrix.label)
         }
 
-        SGPstateData[[state]][["Baseline_splineMatrix"]][["Coefficient_Matrices"]] <- eval(parse(text=getMatrixLabel(state, year)))
+	if (is.null(add.matrices.to.state)) add.matrices.to.state <- state
+
+        SGPstateData[[add.matrices.to.state]][["Baseline_splineMatrix"]][["Coefficient_Matrices"]] <- eval(parse(text=getMatrixLabel(state, year)))
         return(SGPstateData)
 } ### END addBaselineMatrices

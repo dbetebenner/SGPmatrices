@@ -15,7 +15,8 @@ Matrices are used if baseline SGP analyses are performed. The environment curren
     \item{\code{IN_Baseline_Matrices}}{Contains 2021 baseline matrices for Indiana ILEARN/ISTEP+}
     \item{\code{WIDA_MA_Baseline_Matrices}}{Contains 2021 baseline matrices for Massachusetts WIDA-ACCESS}
     \item{\code{MA_Baseline_Matrices}}{Contains 2021 baseline matrices for Massachusetts MCAS 2.0/PARCC}
-    \item{\code{WIDA_NH_Baseline_Matrices}}{Contains 2021 baseline matrices for Massachusetts WIDA-ACCESS}
+    \item{\code{WIDA_NH_Baseline_Matrices}}{Contains 2021 baseline matrices for New Hampshire WIDA-ACCESS}
+    \item{\code{WIDA_RI_Baseline_Matrices}}{Contains 2021 baseline matrices for Rhode Island WIDA-ACCESS}
 }
 }
 
