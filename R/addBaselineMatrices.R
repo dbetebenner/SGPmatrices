@@ -1,6 +1,6 @@
 `addBaselineMatrices` <-
 function(state,
-         add.matrices.to.state=NULL,
+         add.matrices.to.which.state=NULL,
          year) {
 
         SGPstateData <- SGP::SGPstateData ### Needed due to assignment of values to SGPstateData
