@@ -130,6 +130,7 @@
 
     <pre class="usage"><span class='fu'>addBaselineMatrices</span>(
     <span class='no'>state</span>,
+    <span class='kw'>add.baseline.to.state</span><span class='kw'>=</span><span class='kw'>NULL</span>,
     <span class='no'>year</span>)</pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a> Arguments</h2>
@@ -137,7 +138,11 @@
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
       <th>state</th>
-      <td><p>A character string for the state/assessment abbreviation. Must match value to be used in SGPstateData.</p></td>
+      <td><p>A character string for the state/assessment abbreviation for the baseline matrices to be used. Must match value to be used in SGPstateData.</p></td>
+    </tr>
+    <tr>
+      <th>add.baseline.to.state</th>
+      <td><p>A character string for the state/assessment abbreviation where the baseline matrices will be placed in SGPstateData. If not argument is supplied the default is to use the state/assessment abbreviation supplied via the argument <code>state</code>.</p></td>
     </tr>
     <tr>
       <th>year</th>
@@ -147,7 +152,7 @@
 
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p>Returns SGPstateData with the matrices embedded in the correct position.</p>
+    <p>Returns SGPstateData with the matrices associated with argument <code>state</code> embedded in the position associated with the argument <code>add.matrices.to.state</code> (defaults to <code>state</code>).</p>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">

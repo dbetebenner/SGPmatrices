@@ -27,10 +27,25 @@ if (is_html_output()) {
 
 # Introduction
 
-The R package **SGPmatrices** contains baseline coefficient matrices for use with the SGP in calculating baseline SGPs. 
+The R package **SGPmatrices** contains baseline coefficient matrices for use with the SGP in calculating baseline SGPs.
 The package is under active development by staff at the [Center for Assessment](https://www.nciea.org).
 
-# Use
+# Contents
+
+The baseline coefficient matrices embedded in **SGPmatrices** are updated periodically. Current contents include:
+
+* AZ_Baseline_Matrices: Contains 2021 baseline matrices for Arizona AzM2.
+* CO_Baseline_Matrices: Contains 2021 baseline matrices for Colorado CMAS.
+* WIDA_CO_Baseline_Matrices: Contains 2021 baseline matrices for Colorado WIDA-ACCESS.
+* WIDA_HI_Baseline_Matrices: Contains 2021 baseline matrices for Hawaii WIDA-ACCESS.
+* WIDA_IN_Baseline_Matrices: Contains 2021 baseline matrices for Indiana WIDA-ACCESS.
+* IN_Baseline_Matrices: Contains 2021 baseline matrices for Indiana ILEARN/ISTEP+.
+* WIDA_MA_Baseline_Matrices: Contains 2021 baseline matrices for Massachusetts WIDA-ACCESS.
+* MA_Baseline_Matrices: Contains 2021 baseline matrices for Massachusetts MCAS 2.0/PARCC.
+* WIDA_NH_Baseline_Matrices: Contains 2021 baseline matrices for New Hampshire WIDA-ACCESS.
+* WIDA_RI_Baseline_Matrices: Contains 2021 baseline matrices for Rhode Island WIDA-ACCESS.
+
+# Use of SGPmatrices
 
 After [installing](../index.html#installation) the package from GitHub, one conducts baseline SGP calculations with the matrices in this package.
 Baseline matrices are added to the `SGPstateData` object embedded in the `SGP` prior to running `SGP` analyses supply the appropriate state abbreviation and year
@@ -40,12 +55,13 @@ to the `addBaselineMatrices` function. For example:
 SGPstateData <- SGPmatrices::addBaselineMatrices("AZ", "2021")
 ```
 
-
-
 # Examples
 
+```
+SGPstateData <- SGPmatrices::addBaselineMatrices("WIDA", add.matrices.to.state="WIDA_RI", "2021")
+```
 
 # Contributions & Requests
 
-If you have contribution (for example, another language) or a feature request for the **SGPmatrices** package, don't hesitate to write or set 
+If you have contributions of baseline matrices or a feature request for the **SGPmatrices** package, don't hesitate to write or set
 up an [issue on GitHub](https://github.com/CenterForAssessment/SGPmatrices/issues).

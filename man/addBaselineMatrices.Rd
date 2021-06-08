@@ -8,17 +8,20 @@ The function addBaselineMatrices adds baseline matrices contained in the SGPmatr
 \usage{
 addBaselineMatrices(
     state,
+    add.baseline.to.state=NULL,
     year)
 }
 
 \arguments{
-  \item{state}{A character string for the state/assessment abbreviation. Must match value to be used in SGPstateData.
+  \item{state}{A character string for the state/assessment abbreviation for the baseline matrices to be used. Must match value to be used in SGPstateData.
+  }
+  \item{add.baseline.to.state}{A character string for the state/assessment abbreviation where the baseline matrices will be placed in SGPstateData. If not argument is supplied the default is to use the state/assessment abbreviation supplied via the argument \code{state}.
   }
   \item{year}{Year associated with the matrices.
   }
 }
 
-\value{Returns SGPstateData with the matrices embedded in the correct position.
+\value{Returns SGPstateData with the matrices associated with argument \code{state} embedded in the position associated with the argument \code{add.matrices.to.state} (defaults to \code{state}).
 }
 
 \author{Damian W. Betebenner \email{dbetebenner@nciea.org}}
