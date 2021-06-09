@@ -6,6 +6,6 @@ function(libname, pkgname) {
 `.onAttach` <-
 function(libname, pkgname) {
 	if (interactive()) {
-		packageStartupMessage('SGPmatrices ', paste(paste0(unlist(strsplit(as.character(packageVersion("SGPmatrices")), "[.]")), c(".", "-", ".", "")), collapse=""),' (6-8-2021). For help: >help("SGPmatrices") or visit https://centerforassessment.github.io/SGPmatrices')
+		packageStartupMessage('SGPmatrices ', paste(paste0(unlist(strsplit(as.character(packageVersion("SGPmatrices")), "[.]")), c(".", "-", ".", "")), collapse=""),' (6-9-2021). For help: >help("SGPmatrices") or visit https://centerforassessment.github.io/SGPmatrices')
 	}
 }
