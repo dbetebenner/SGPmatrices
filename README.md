@@ -4,7 +4,7 @@ SGPmatrices
 [![R-CMD-check](https://github.com/CenterForAssessment/SGPmatrices/workflows/R-CMD-check/badge.svg)](https://github.com/CenterForAssessment/SGPmatrices/actions)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/centerforassessment/SGPmatrices?branch=master&svg=true)](https://ci.appveyor.com/project/centerforassessment/SGPmatrices)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/SGPmatrices)](http://cran.r-project.org/package=SGPmatrices)
-[![Development Version](https://img.shields.io/badge/devel-0.0--0.92-brightgreen.svg)](https://github.com/CenterForAssessment/SGPmatrices)
+[![Development Version](https://img.shields.io/badge/devel-0.0--0.94-brightgreen.svg)](https://github.com/CenterForAssessment/SGPmatrices)
 [![License](http://img.shields.io/badge/license-GPL%203-brightgreen.svg?style=flat)](https://github.com/CenterForAssessment/SGPmatrices/blob/master/LICENSE.md)
 
 # Overview
@@ -21,6 +21,7 @@ The baseline coefficient matrices embedded in **SGPmatrices** are updated period
 * HI_Baseline_Matrices: Contains 2021 baseline matrices for Hawaii SBA.
 * IN_Baseline_Matrices: Contains 2021 baseline matrices for Indiana ILEARN/ISTEP+.
 * MA_Baseline_Matrices: Contains 2021 baseline matrices for Massachusetts MCAS 2.0/PARCC.
+* NH_Baseline_Matrices: Contains 2021 baseline matrices for New Hampshire SAS.
 * RI_Baseline_Matrices: Contains 2021 baseline matrices for Rhode Island RICAS/PARCC.
 * WIDA_Baseline_Matrices: Contains 2021 baseline matrices for multiple WIDA members.
 * WIDA_CO_Baseline_Matrices: Contains 2021 baseline matrices for Colorado WIDA-ACCESS.
