@@ -39,6 +39,7 @@ The baseline coefficient matrices embedded in **SGPmatrices** are updated period
 * HI_Baseline_Matrices: Contains 2021 baseline matrices for Hawaii SBA.
 * IN_Baseline_Matrices: Contains 2021 baseline matrices for Indiana ILEARN/ISTEP+.
 * MA_Baseline_Matrices: Contains 2021 baseline matrices for Massachusetts MCAS 2.0/PARCC.
+* MI_Baseline_Matrices: Contains 2021 baseline matrices for Michigan MSTEP/PSAT/SAT.
 * NH_Baseline_Matrices: Contains 2021 baseline matrices for New Hampshire SAS.
 * RI_Baseline_Matrices: Contains 2021 baseline matrices for Rhode Island RICAS/PARCC.
 * WIDA_Baseline_Matrices: Contains 2021 baseline matrices for multiple WIDA members.
