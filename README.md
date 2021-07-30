@@ -4,7 +4,7 @@ SGPmatrices
 [![R-CMD-check](https://github.com/CenterForAssessment/SGPmatrices/workflows/R-CMD-check/badge.svg)](https://github.com/CenterForAssessment/SGPmatrices/actions)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/centerforassessment/SGPmatrices?branch=master&svg=true)](https://ci.appveyor.com/project/centerforassessment/SGPmatrices)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/SGPmatrices)](http://cran.r-project.org/package=SGPmatrices)
-[![Development Version](https://img.shields.io/badge/devel-0.0--0.94-brightgreen.svg)](https://github.com/CenterForAssessment/SGPmatrices)
+[![Development Version](https://img.shields.io/badge/devel-0.0--0.95-brightgreen.svg)](https://github.com/CenterForAssessment/SGPmatrices)
 [![License](http://img.shields.io/badge/license-GPL%203-brightgreen.svg?style=flat)](https://github.com/CenterForAssessment/SGPmatrices/blob/master/LICENSE.md)
 
 # Overview
