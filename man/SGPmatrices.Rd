@@ -12,6 +12,7 @@ Matrices are used if baseline SGP analyses are performed. The environment curren
     \item{\code{HI_Baseline_Matrices}}{Contains 2021 baseline matrices for Hawaii SBA}
     \item{\code{IN_Baseline_Matrices}}{Contains 2021 baseline matrices for Indiana ILEARN/ISTEP+}
     \item{\code{MA_Baseline_Matrices}}{Contains 2021 baseline matrices for Massachusetts MCAS 2.0/PARCC}
+    \item{\code{MI_Baseline_Matrices}}{Contains 2021 baseline matrices for Michigan MSTEP/PSAT/SAT}
     \item{\code{NH_Baseline_Matrices}}{Contains 2021 baseline matrices for New Hampshire SAS}
     \item{\code{RI_Baseline_Matrices}}{Contains 2021 baseline matrices for Massachusetts RICAS/PARCC}
     \item{\code{WIDA_Baseline_Matrices}}{Contains 2021 baseline matrices for multiple WIDA members}
