@@ -10,8 +10,8 @@
 \tabular{ll}{
 Package: \tab SGPmatrices\cr
 Type: \tab Package\cr
-Version: \tab 0.0-0.96\cr
-Date: \tab 2021-8-4\cr
+Version: \tab 0.0-0.97\cr
+Date: \tab 2021-8-10\cr
 License: \tab GPL-3\cr
 LazyLoad: \tab Yes\cr
 LazyData: \tab Yes\cr
