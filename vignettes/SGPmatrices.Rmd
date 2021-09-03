@@ -35,13 +35,14 @@ The package is under active development by staff at the [Center for Assessment](
 The baseline coefficient matrices embedded in **SGPmatrices** are updated periodically. Current contents include:
 
 * AZ_Baseline_Matrices: Contains 2021 baseline matrices for Arizona AzM2.
-* CO_Baseline_Matrices: Contains 2021 baseline matrices for Colorado CMAS.
+* CO_Baseline_Matrices: Contains 2021 baseline matrices for Colorado CMAS and PSAT/SAT.
 * HI_Baseline_Matrices: Contains 2021 baseline matrices for Hawaii SBA.
 * IN_Baseline_Matrices: Contains 2021 baseline matrices for Indiana ILEARN/ISTEP+.
 * MA_Baseline_Matrices: Contains 2021 baseline matrices for Massachusetts MCAS 2.0/PARCC.
 * MI_Baseline_Matrices: Contains 2021 baseline matrices for Michigan MSTEP/PSAT/SAT.
 * NH_Baseline_Matrices: Contains 2021 baseline matrices for New Hampshire SAS.
 * RI_Baseline_Matrices: Contains 2021 baseline matrices for Rhode Island RICAS/PARCC.
+* UT_Baseline_Matrices: Contains 2021 baseline matrices for Utah RISE and Utah Aspire Plus (with SAGE equated).
 * WIDA_Baseline_Matrices: Contains 2021 baseline matrices for multiple WIDA members.
 * WIDA_CO_Baseline_Matrices: Contains 2021 baseline matrices for Colorado WIDA-ACCESS.
 * WIDA_HI_Baseline_Matrices: Contains 2021 baseline matrices for Hawaii WIDA-ACCESS.
