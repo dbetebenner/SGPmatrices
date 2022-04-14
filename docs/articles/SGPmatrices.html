@@ -48,7 +48,7 @@
   <a href="../reference/index.html">Reference</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     News
      
     <span class="caret"></span>
@@ -91,36 +91,40 @@
 <!--/.navbar -->
 
       
-      </header><script src="SGPmatrices_files/header-attrs-2.9/header-attrs.js"></script><div class="row">
+      </header><script src="SGPmatrices_files/header-attrs-2.13/header-attrs.js"></script><link href="SGPmatrices_files/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet">
+<link href="SGPmatrices_files/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet">
+<script src="SGPmatrices_files/anchor-sections-1.1.0/anchor-sections.js"></script><div class="row">
   <div class="col-md-9">
     <div class="page-header toc-ignore">
       <h1>Getting started with SGPmatrices</h1>
                         <h4 class="author">Damian W Betebenner</h4>
             
-            <h4 class="date">July 30th, 2021</h4>
           </div>
 
     
     
 <div class="contents">
-<div id="introduction" class="section level1">
+<div id="introduction" class="section level1 hasAnchor">
 <h1 class="hasAnchor">
-<a href="#introduction" class="anchor" aria-hidden="true"></a>Introduction</h1>
+<a href="#introduction" class="anchor" aria-hidden="true"></a>Introduction<a href="#introduction" class="anchor-section" aria-label="Anchor link to header"></a>
+</h1>
 <p>The R package <strong>SGPmatrices</strong> contains baseline coefficient matrices for use with the SGP in calculating baseline SGPs. The package is under active development by staff at the <a href="https://www.nciea.org">Center for Assessment</a>.</p>
 </div>
-<div id="contents" class="section level1">
+<div id="contents" class="section level1 hasAnchor">
 <h1 class="hasAnchor">
-<a href="#contents" class="anchor" aria-hidden="true"></a>Contents</h1>
+<a href="#contents" class="anchor" aria-hidden="true"></a>Contents<a href="#contents" class="anchor-section" aria-label="Anchor link to header"></a>
+</h1>
 <p>The baseline coefficient matrices embedded in <strong>SGPmatrices</strong> are updated periodically. Current contents include:</p>
 <ul>
 <li>AZ_Baseline_Matrices: Contains 2021 baseline matrices for Arizona AzM2.</li>
-<li>CO_Baseline_Matrices: Contains 2021 baseline matrices for Colorado CMAS.</li>
+<li>CO_Baseline_Matrices: Contains 2021 baseline matrices for Colorado CMAS and PSAT/SAT.</li>
 <li>HI_Baseline_Matrices: Contains 2021 baseline matrices for Hawaii SBA.</li>
 <li>IN_Baseline_Matrices: Contains 2021 baseline matrices for Indiana ILEARN/ISTEP+.</li>
 <li>MA_Baseline_Matrices: Contains 2021 baseline matrices for Massachusetts MCAS 2.0/PARCC.</li>
 <li>MI_Baseline_Matrices: Contains 2021 baseline matrices for Michigan MSTEP/PSAT/SAT.</li>
 <li>NH_Baseline_Matrices: Contains 2021 baseline matrices for New Hampshire SAS.</li>
 <li>RI_Baseline_Matrices: Contains 2021 baseline matrices for Rhode Island RICAS/PARCC.</li>
+<li>UT_Baseline_Matrices: Contains 2021 baseline matrices for Utah RISE and Utah Aspire Plus (with SAGE equated).</li>
 <li>WIDA_Baseline_Matrices: Contains 2021 baseline matrices for multiple WIDA members.</li>
 <li>WIDA_CO_Baseline_Matrices: Contains 2021 baseline matrices for Colorado WIDA-ACCESS.</li>
 <li>WIDA_HI_Baseline_Matrices: Contains 2021 baseline matrices for Hawaii WIDA-ACCESS.</li>
@@ -130,20 +134,23 @@
 <li>WIDA_RI_Baseline_Matrices: Contains 2021 baseline matrices for Rhode Island WIDA-ACCESS.</li>
 </ul>
 </div>
-<div id="use-of-sgpmatrices" class="section level1">
+<div id="use-of-sgpmatrices" class="section level1 hasAnchor">
 <h1 class="hasAnchor">
-<a href="#use-of-sgpmatrices" class="anchor" aria-hidden="true"></a>Use of SGPmatrices</h1>
+<a href="#use-of-sgpmatrices" class="anchor" aria-hidden="true"></a>Use of SGPmatrices<a href="#use-of-sgpmatrices" class="anchor-section" aria-label="Anchor link to header"></a>
+</h1>
 <p>After <a href="../index.html#installation">installing</a> the package from GitHub, one conducts baseline SGP calculations with the matrices in this package. Baseline matrices are added to the <code>SGPstateData</code> object embedded in the <code>SGP</code> prior to running <code>SGP</code> analyses supply the appropriate state abbreviation and year to the <code>addBaselineMatrices</code> function. For example:</p>
 <pre><code>SGPstateData &lt;- SGPmatrices::addBaselineMatrices("AZ", "2021")</code></pre>
 </div>
-<div id="examples" class="section level1">
+<div id="examples" class="section level1 hasAnchor">
 <h1 class="hasAnchor">
-<a href="#examples" class="anchor" aria-hidden="true"></a>Examples</h1>
+<a href="#examples" class="anchor" aria-hidden="true"></a>Examples<a href="#examples" class="anchor-section" aria-label="Anchor link to header"></a>
+</h1>
 <pre><code>SGPstateData &lt;- SGPmatrices::addBaselineMatrices("WIDA", "2021", add.matrices.to.which.state="WIDA_RI")</code></pre>
 </div>
-<div id="contributions-requests" class="section level1">
+<div id="contributions-requests" class="section level1 hasAnchor">
 <h1 class="hasAnchor">
-<a href="#contributions-requests" class="anchor" aria-hidden="true"></a>Contributions &amp; Requests</h1>
+<a href="#contributions-requests" class="anchor" aria-hidden="true"></a>Contributions &amp; Requests<a href="#contributions-requests" class="anchor-section" aria-label="Anchor link to header"></a>
+</h1>
 <p>If you have contributions of baseline matrices or a feature request for the <strong>SGPmatrices</strong> package, don’t hesitate to write or set up an <a href="https://github.com/CenterForAssessment/SGPmatrices/issues">issue on GitHub</a>.</p>
 </div>
 </div>
@@ -154,11 +161,11 @@
         <div id="tocnav">
       <h2>Contents</h2>
       <ul class="nav nav-pills nav-stacked">
-<li><a href="#introduction">Introduction</a></li>
-      <li><a href="#contents">Contents</a></li>
-      <li><a href="#use-of-sgpmatrices">Use of SGPmatrices</a></li>
-      <li><a href="#examples">Examples</a></li>
-      <li><a href="#contributions-requests">Contributions &amp; Requests</a></li>
+<li><a href="#introduction">Introduction<span></span></a></li>
+      <li><a href="#contents">Contents<span></span></a></li>
+      <li><a href="#use-of-sgpmatrices">Use of SGPmatrices<span></span></a></li>
+      <li><a href="#examples">Examples<span></span></a></li>
+      <li><a href="#contributions-requests">Contributions &amp; Requests<span></span></a></li>
       </ul>
 </div>
       </div>
