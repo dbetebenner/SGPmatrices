@@ -10,6 +10,7 @@ Matrices are used if baseline SGP analyses are performed. The environment curren
     \item{\code{AZ_Baseline_Matrices}}{Contains 2021 baseline matrices for Arizona AzM2}
     \item{\code{CO_Baseline_Matrices}}{Contains 2021 baseline matrices for Colorado CMAS}
     \item{\code{HI_Baseline_Matrices}}{Contains 2021 baseline matrices for Hawaii SBA}
+    \item{\code{ID_Baseline_Matrices}}{Contains 2021 baseline matrices for Idaho ISAT}
     \item{\code{IN_Baseline_Matrices}}{Contains 2021 baseline matrices for Indiana ILEARN/ISTEP+}
     \item{\code{MA_Baseline_Matrices}}{Contains 2021 baseline matrices for Massachusetts MCAS 2.0/PARCC}
     \item{\code{MI_Baseline_Matrices}}{Contains 2021 baseline matrices for Michigan MSTEP/PSAT/SAT}
@@ -19,6 +20,7 @@ Matrices are used if baseline SGP analyses are performed. The environment curren
     \item{\code{WIDA_Baseline_Matrices}}{Contains 2021 baseline matrices for multiple WIDA members}
     \item{\code{WIDA_CO_Baseline_Matrices}}{Contains 2021 baseline matrices for Colorado WIDA-ACCESS}
     \item{\code{WIDA_HI_Baseline_Matrices}}{Contains 2021 baseline matrices for Hawaii WIDA-ACCESS}
+    \item{\code{WIDA_ID_Baseline_Matrices}}{Contains 2021 baseline matrices for Idaho WIDA-ACCESS}
     \item{\code{WIDA_IN_Baseline_Matrices}}{Contains 2021 baseline matrices for Indiana WIDA-ACCESS}
     \item{\code{WIDA_MA_Baseline_Matrices}}{Contains 2021 baseline matrices for Massachusetts WIDA-ACCESS}
     \item{\code{WIDA_NH_Baseline_Matrices}}{Contains 2021 baseline matrices for New Hampshire WIDA-ACCESS}
