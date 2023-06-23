@@ -3,12 +3,12 @@ citHeader("To cite package 'SGPmatrices' in publications use:")
 citEntry(entry = "Manual",
          title        = "{SGPmatrices}: Baseline coefficient matrices for SGP analyses.",
          author       = "Damian W. Betebenner and Adam R. Van Iwaarden",
-         year         = "2022",
-         note         = "R package version 0.0-0.999",
+         year         = "2023",
+         note         = "R package version 0.0-0.9999",
          url          = "https://github.com/CenterForAssessment/SGPmatrices/",
          
-         textVersion  = paste("Damian W. Betebenner and Adam R. Van Iwaarden (2022).",
+         textVersion  = paste("Damian W. Betebenner and Adam R. Van Iwaarden (2023).",
                         "SGPmatrices: Baseline coefficient matrices for SGP analyses.",
-                        "(R package version 0.0-0.999",
+                        "(R package version 0.0-0.9999",
                         "URL https://github.com/CenterForAssessment/SGPmatrices/")
 )
