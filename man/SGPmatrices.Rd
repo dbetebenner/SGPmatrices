@@ -17,6 +17,7 @@ Matrices are used if baseline SGP analyses are performed. The environment curren
     \item{\code{NH_Baseline_Matrices}}{Contains 2021 baseline matrices for New Hampshire SAS}
     \item{\code{RI_Baseline_Matrices}}{Contains 2021 baseline matrices for Massachusetts RICAS/PARCC}
     \item{\code{UT_Baseline_Matrices}}{Contains 2021 baseline matrices for Utah RISE and Utah Aspire Plus}
+    \item{\code{WA_Baseline_Matrices}}{Contains 2021 baseline matrices for Washington Smarter-Balanced Assessment}
     \item{\code{WIDA_Baseline_Matrices}}{Contains 2021 baseline matrices for multiple WIDA members}
     \item{\code{WIDA_CO_Baseline_Matrices}}{Contains 2021 baseline matrices for Colorado WIDA-ACCESS}
     \item{\code{WIDA_HI_Baseline_Matrices}}{Contains 2021 baseline matrices for Hawaii WIDA-ACCESS}
