@@ -1,14 +1,14 @@
 Package: SGPmatrices
 Type: Package
 Title: Baseline Coefficient Matrices for SGP Analyses
-Version: 0.1-1.0
-Date: 2024-12-3
+Version: 0.1-2.0
+Date: 2025-4-21
 Authors@R: c(person(given=c("Damian", "W."), family="Betebenner", email="dbetebenner@nciea.org", role=c("aut", "cre")),
             person(given=c("Adam", "R."), family="Van Iwaarden", email="avaniwaarden@nciea.org", role="aut"))
 Maintainer: Damian W. Betebenner <dbetebenner@nciea.org>
 Depends: R (>= 4.0)
 Suggests: SGP (>= 1.9-0.0), knitr, rmarkdown
-Imports: crayon, toOrdinal
+Imports: crayon, pkgsearch, toOrdinal
 Description: Baseline coefficient matrices for SGP analyses.
 URL: https://github.com/CenterForAssessment/SGPmatrices
 VignetteBuilder: knitr
