@@ -19,6 +19,7 @@ The baseline coefficient matrices embedded in **SGPmatrices** are updated period
 * AZ_Baseline_Matrices: Contains 2021 baseline matrices for Arizona AzM2.
 * CO_Baseline_Matrices: Contains 2021 baseline matrices for Colorado CMAS.
 * HI_Baseline_Matrices: Contains 2021 baseline matrices for Hawaii SBA.
+* HI_SGPt_Baseline_Matrices: Contains 2021 SGPt time-dependent baseline matrices for Hawaii SBA.
 * IN_Baseline_Matrices: Contains 2021 baseline matrices for Indiana ILEARN/ISTEP+.
 * MA_Baseline_Matrices: Contains 2021 baseline matrices for Massachusetts MCAS 2.0/PARCC.
 * MI_Baseline_Matrices: Contains 2021 baseline matrices for Michigan MSTEP/PSAT/SAT.
